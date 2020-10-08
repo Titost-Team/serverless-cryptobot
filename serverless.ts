@@ -11,10 +11,8 @@ const serverlessConfiguration: Serverless = {
       includeModules: true
     }
   },
-  // Add the serverless-webpack plugin
   plugins: [
     'serverless-webpack',
-    'serverless-iam-roles-per-function',
     'serverless-offline'
   ],
   provider: {
